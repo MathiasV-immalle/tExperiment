@@ -1,7 +1,14 @@
+#main-wrapper {
+	box-sizing: border-box;
+	min-height: 100%;
+	padding: 0 0 25px;
+    position: relative;
+}
+
 h1 {
 	color: #444;
-	font-family: KRISTEN ITC;
-	font-size: 200%;
+	font-family: 'Comic Sans MS';
+	font-size: 220%;
 	/*text-decoration: underline;*/
 	margin: 60px 10px 15px 15px;
 	}
@@ -9,7 +16,7 @@ h2 {
 	color: #444;
 	font-family: verdana;
 	font-size: 200%;
-	color: rgb(203,241,7);
+	color: rgb(0,191,255);
 	margin: 15px 10px 15px 15px;
 	}
 h3 {
@@ -19,35 +26,77 @@ h3 {
 	margin: -150px 0px 15px 15px;
 }
 h4 {
-	color: rgb(203,241,7);
-	font-family: KRISTEN ITC;
+	color: rgb(0,191,255);
+	font-family: 'Comic Sans MS';
 	font-size: 150%;
 	margin-left: 3%;
 	margin-top: 3%;
 	}
 h5 {
-	color: rgb(203,241,7);
-	font-family: Verdana;
+	color: rgb(0,191,255);
+	font-family: verdana;
 	font-size: 125%;
-	margin-left: 5%;
-	margin-top: 5%;
+	margin-left: 3%;
 	margin-bottom: 5%;
 	}
 p  {
 	color: #999;
-	font-family: Verdana;
+	font-family: verdana;
 	font-size: 100%;
 	margin-left: 5%;
 	}
+html,
 body {
 		background-color: #444;
+		height: 100%;
 		margin: 0;
+		padding: 0;
+		max-width: 100%;
+		overflow-x: hidden;
 	}
 b{
-	color: rgb(203,241,7) 
+	color: rgb(0,191,255)) 
  }
+ 
+ u{
+	 text-decoration: underline;
+ }
+footer {
+    bottom: 0;
+    height: 25px;
+    left: 0;
+	padding-left: 2px;
+	padding-top: 4px;
+    position: absolute;
+    width: 100%;
+	background-color: #111;
+	color: #555;
+}
 
-a:link, a:visited, a:hover, a:active {color: rgb(203,241,7); text-decoration: none; font-family: KRISTEN ITC; font-size: 125%}
+#footer {
+	padding-left: 2px;
+	padding-top: 4px;
+	height: 25px;
+	width: 100%;
+	position: relative;
+	background-color: #111;
+	color: #555;
+}
+
+#placeholderdiv {
+	padding-right: 0px;
+	position: absolute;
+	right: -38px;
+	top: 115px;
+}
+
+.verticalfoto {
+	padding-right: -50px;
+	position: absolute;
+	right: 40px;
+}
+
+a:link, a:visited, a:hover, a:active {color: rgb(0,191,255); text-decoration: none; font-family: 'Comic Sans MS'; font-size: 125%}
 
 ul.topnav {
 	list-style-type: none;
@@ -58,7 +107,7 @@ ul.topnav {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	font-family: KRISTEN ITC;
+	font-family: 'Comic Sans MS';
 }
 
 ul.topnav li {float: left;}
@@ -71,9 +120,9 @@ ul.topnav li a {
 	text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #111; color: rgb(203,241,7)}
+ul.topnav li a:hover:not(.active) {background-color: #111; color: rgb(0,191,255)}
 
-ul.topnav li a.active {color: rgb(203,241,7); background-color: #444;}
+ul.topnav li a.active {color: rgb(0,191,255); background-color: #444;}
 
 ul.topnav li.right {float: right;
 
@@ -87,15 +136,20 @@ ul.topnav li.right {float: right;
     box-sizing: border-box;
 }
 [class*="col-"] {
-	min-width: 24%;
+	min-width: 25%;
     float: left;
 }
 .col-1 {width: 40%; background-color:#444}
 .col-2 {width: 60%; background-color:#444}
 .col-3 {width: 50%; background-color:#444}
-.col-4 {width: 100%; background-color:#444; height: 60px; border-bottom: 5px solid rgb(203,241,7);}
+.col-4 {width: 100%; background-color:#444; height: 60px; border-bottom: 5px solid rgb(0,191,255);}
 .col-5 {width: 50%; background-color:#444; height: 60px}
-.col-titel {width: 100%; height: 115px; background-color: rgb(203,241,7)}
+.col-6 {width: 100%; background-color: #111}
+.col-7 {width: 15%}
+.col-8 {width: 35%}
+.col-9 {width: 100%}
+.col-10 {width: 55%}
+.col-titel {width: 100%; height: 115px; background-color: rgb(0,191,255)}
 .col-menu {width: 100%; background-color: #444;}
-.col-spatieH {width: 100%; height: 5px; background-color: rgb(203,241,7)}
-.col-footer {width: 100%; height: 115px; background-color: rgb(203,241,7)}
+.col-spatieH {width: 100%; height: 5px; background-color: rgb(0,191,255)}
+.col-footer {width: 100%; height: 115px; background-color: rgb(0,191,255)}
